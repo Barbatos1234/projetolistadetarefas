@@ -1,0 +1,91 @@
+/* Estilos gerais */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to right, #000428, #004e92);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contêiner principal */
+div {
+    background-color: #0069e0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    border-radius: 18px;
+    border-color: #0069e0;
+
+}
+
+/* Cabeçalho */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    
+    
+}
+
+/* Entrada de texto */
+#taskinput {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: rgb(0, 12, 53);
+}
+
+/* Botão de salvar */
+button {
+    padding: 10px 20px;
+    background-color: #0069e0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #0069e0;
+}
+
+/* Lista de tarefas */
+#tasklist {
+    list-style-type: none;
+    padding: 0;
+    
+
+}
+
+#tasklist li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Botão de apagar */
+.delete {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete:hover {
+    color: darkred;
+}
